@@ -1,0 +1,85 @@
+body {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, #e91e63, #42a5f5) fixed;
+    
+}
+
+#container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    
+}
+input {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  background-color: #ffffff;
+}
+#loginbox {
+    background-color: #FFF;
+    padding: 100px 100px 50px 100px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    font-size: 14px;
+    border-radius: 15px;
+}
+
+#login , #password
+{
+    font-size:15px;
+    outline:none;
+    border:none;
+    width:calc(100% - 36px);
+    border: 2px solid grey;
+    padding:10px;
+    border-radius:2px;
+    
+
+}
+
+.button {
+  background-color: #222;
+  border-radius: 4px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+  max-width: none;
+  min-height: 44px;
+  min-width: 10px;
+  outline: none;
+  overflow: hidden;
+  padding: 9px 20px 8px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 150px;
+}
+
+.button:hover,
+.button:focus {
+  opacity: .75;
+}
+
+#tekst {
+  font-size: 20px;
+}
